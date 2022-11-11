@@ -1,5 +1,6 @@
-@import url(//db.onlinewebfonts.com/c/e2426c0c67e525969365dc62192b4871?family=Linotype+Spacera);
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Yusei+Magic&display=swap');
 
 * {
     margin: 0;
@@ -9,37 +10,52 @@
 
 header {
     width: 100%;
-   
+
 }
 
 
-.titulo p {
-    font-family: "Linotype Spacera";
+.titulo2 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    opacity: 0.5;
     top: 250px;
     left: 20%;
     position: absolute;
     display: flex;
-    font-size: 220px;
+    justify-content: center;
+    align-items: center;
+    font-size: 250px;
     color: grey;
     text-shadow: 0 0 10px black;
+   
 
+}
+
+
+.videoinicio{
+    width: 100%;
+    
+         
 }
 
 
 body {
-    cursor: pointer;
-    background-color: white;
+
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(132, 161, 173));
 
 }
 
 nav ul {
+    width: 100%;
+    height: 40px;
     list-style-type: none;
-    background-color: #2a5298;
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(6,3,30));
     text-align: center;
 
 }
 
 li {
+    cursor: pointer;
     font-size: 25px;
     display: inline;
     margin: 10px 30px;
@@ -54,78 +70,99 @@ li a {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* de aca para abajo estan las cards */
 
 .container {
-    height: 800px;
+    height: 1000px;
     display: flex;
     justify-content: center;
-    align-content: space-between;
+    align-content: space-around;
     flex-wrap: wrap;
     align-content: center;
     text-align: center;
-}
-
-
-.items {
-    height: 200px;
-    margin: 60px 50px;
-    border: 2px solid;
-    border-radius: 1vh;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-
-.textoitem{
-
-    color: #1e3c72 
+   
     
+}
+
+ .items {
+    height: 200px;
+    margin: 50px 50px;
+    border-radius: 1vh;
+    border: 2px solid black;
+    display: flex;
+  
+} 
+
+
+    
+
+
+.textoitem {
+    cursor: pointer;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    color: #1e3c72
 }
 
 
 .cards {
     width: 75%;
     height: 28vh;
-    margin: 20px 20px 20px 20px;
+    margin: 20px 20px;
+    
+
+}
+
+.secimg .imglab .txtlab {
+    display: flex;
+    justify-content:center;
+    align-items: center;
    
+    }
+    
+.txtlab {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Yusei Magic', sans-serif;
+    display: flex;
+    
+    
+
+}
+
+.imglab {
+    display: flex;
+    justify-content: space-around;
+
+
 }
 
 
 footer {
-    width: 100%;
-    height: 15vh;
-    background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
-    font-size: 25px;
-
-
-
+    height: 150px;
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(6,3,30));
+    display: flex;
+    justify-content: space-around;
+    
 }
+
 
 .columnaredes {
-    justify-content: center;
-    align-items: center;
-   
-   
-    
-}
-
-
-.columnaredes .red {
     width: 5%;
     height: 5vh;
+    display: flex;
+    justify-content: space-around;
+      
    
-    
+
+}
+
+.fa-brands {
+    font-size: 90px;
+    color: white;
+    margin: 10px;
+   
+   
 }
 
 
-a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-family: 'Boogaloo', cursive;
-    font-family: 'Bungee Spice', cursive;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    text-align: center;
-
-}
