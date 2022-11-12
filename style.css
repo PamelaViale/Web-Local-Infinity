@@ -2,16 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Yusei+Magic&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-header {
-    width: 100%;
 
 }
+
 
 
 .titulo2 {
@@ -26,7 +23,7 @@ header {
     align-items: center;
     font-size: 250px;
     color: grey;
-    text-shadow: 0 0 10px black;
+    
    
 
 }
@@ -34,16 +31,11 @@ header {
 
 .videoinicio{
     width: 100%;
+    min-width: 100vh;
     
          
 }
 
-
-body {
-
-    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(132, 161, 173));
-
-}
 
 nav ul {
     width: 100%;
@@ -51,15 +43,21 @@ nav ul {
     list-style-type: none;
     background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(6,3,30));
     text-align: center;
-
+    cursor: pointer;
+    
 }
+
+
 
 li {
     cursor: pointer;
     font-size: 25px;
     display: inline;
-    margin: 10px 30px;
-
+    margin: 10px ;
+    
+   
+    
+    
 }
 
 li a {
@@ -68,6 +66,9 @@ li a {
     font-family: 'Boogaloo', cursive;
     font-family: 'Bungee Spice', cursive;
     font-family: 'Montserrat', sans-serif;
+
+    
+    
 }
 
 
@@ -77,8 +78,8 @@ li a {
     justify-content: center;
     align-content: space-around;
     flex-wrap: wrap;
-    align-content: center;
     text-align: center;
+    
    
     
 }
@@ -92,17 +93,22 @@ li a {
   
 } 
 
-
-    
+  
 
 
 .textoitem {
     cursor: pointer;
+    display: inline-block;
+    border: 2px solid black;
+    width: 210px;
+    padding: 12px 0;
+    border-radius: 10px;
     font-family: 'Bungee Spice', cursive;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-size: 25px;
     color: #1e3c72
+    
 }
 
 
@@ -114,25 +120,27 @@ li a {
 
 }
 
-.secimg .imglab .txtlab {
-    display: flex;
-    justify-content:center;
-    align-items: center;
-   
-    }
+
     
 .txtlab {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Yusei Magic', sans-serif;
     display: flex;
+    justify-content: center;
+    font-size: 45px;
+    background-color: #1e3c72;
+    color: #fff;
     
     
 
 }
 
 .imglab {
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
+    height: 1050px;
+    opacity: 0.5;
+   
+
 
 
 }
@@ -144,6 +152,7 @@ footer {
     display: flex;
     justify-content: space-around;
     
+    
 }
 
 
@@ -152,7 +161,7 @@ footer {
     height: 5vh;
     display: flex;
     justify-content: space-around;
-      
+     
    
 
 }
