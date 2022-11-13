@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Yusei+Magic&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -11,29 +11,33 @@
 
 
 
+
+
 .titulo2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     opacity: 0.5;
-    top: 250px;
-    left: 20%;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 250px;
     color: grey;
-    
-   
+    display: block;
+    text-align: center;
+    position: fixed;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+
+
+
 
 }
 
-
-.videoinicio{
+.videoinicio {
     width: 100%;
     min-width: 100vh;
-    
-         
+
+
+
+
 }
 
 
@@ -41,10 +45,10 @@ nav ul {
     width: 100%;
     height: 40px;
     list-style-type: none;
-    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(6,3,30));
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
     text-align: center;
     cursor: pointer;
-    
+
 }
 
 
@@ -53,11 +57,11 @@ li {
     cursor: pointer;
     font-size: 25px;
     display: inline;
-    margin: 10px ;
-    
-   
-    
-    
+    margin: 10px;
+
+
+
+
 }
 
 li a {
@@ -67,9 +71,17 @@ li a {
     font-family: 'Bungee Spice', cursive;
     font-family: 'Montserrat', sans-serif;
 
-    
-    
+
+
 }
+
+
+/* @media  (max-width: 320px) {
+
+  
+   
+} */
+
 
 
 .container {
@@ -79,21 +91,21 @@ li a {
     align-content: space-around;
     flex-wrap: wrap;
     text-align: center;
-    
-   
-    
+
+
+
 }
 
- .items {
+.items {
     height: 200px;
     margin: 50px 50px;
     border-radius: 1vh;
     border: 2px solid black;
     display: flex;
-  
-} 
 
-  
+}
+
+
 
 
 .textoitem {
@@ -108,7 +120,6 @@ li a {
     text-decoration: none;
     font-size: 25px;
     color: #1e3c72
-    
 }
 
 
@@ -116,12 +127,12 @@ li a {
     width: 75%;
     height: 28vh;
     margin: 20px 20px;
-    
+
 
 }
 
 
-    
+
 .txtlab {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Yusei Magic', sans-serif;
@@ -130,8 +141,8 @@ li a {
     font-size: 45px;
     background-color: #1e3c72;
     color: #fff;
-    
-    
+
+
 
 }
 
@@ -139,7 +150,7 @@ li a {
     width: 100%;
     height: 1050px;
     opacity: 0.5;
-   
+
 
 
 
@@ -148,11 +159,11 @@ li a {
 
 footer {
     height: 150px;
-    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27,0.05) 0%, rgba(27, 27, 27,0.05) 50%,rgba(126, 126, 126,0.05) 50%, rgba(126, 126, 126,0.05) 100%),radial-gradient(circle at 18% 51%, rgba(248, 248, 248,0.05) 0%, rgba(248, 248, 248,0.05) 50%,rgba(26, 26, 26,0.05) 50%, rgba(26, 26, 26,0.05) 100%),radial-gradient(circle at 29% 38%, rgba(160, 160, 160,0.05) 0%, rgba(160, 160, 160,0.05) 50%,rgba(212, 212, 212,0.05) 50%, rgba(212, 212, 212,0.05) 100%),linear-gradient(90deg, rgb(35, 74, 255),rgb(6,3,30));
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
     display: flex;
     justify-content: space-around;
-    
-    
+
+
 }
 
 
@@ -161,8 +172,8 @@ footer {
     height: 5vh;
     display: flex;
     justify-content: space-around;
-     
-   
+
+
 
 }
 
@@ -170,8 +181,6 @@ footer {
     font-size: 90px;
     color: white;
     margin: 10px;
-   
-   
+
+
 }
-
-
