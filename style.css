@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Yusei+Magic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Bungee&family=Bungee+Spice&family=Montserrat:ital,wght@0,800;0,900;1,800;1,900&family=Quantico:wght@700&family=Syne+Mono&family=Yusei+Magic&display=swap');
 
 * {
     margin: 0;
@@ -14,36 +14,36 @@
 .titulo2 {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
     opacity: 0.5;
     font-size: 250px;
     color: grey;
     display: block;
     position: absolute;
     top: 40%;
-    left: 10%;
-
-
+    left: 8%;
 
 
 }
 
 .videoinicio {
     width: 100%;
- 
+    position: relative;
 }
 
-header{
-    width: 100%;
-    position: fixed;
+/* header{
+        width: 100%;
+        display: inline-block;
+        position: fixed;
+        top: 0;
+        
+} */
 
-
-}
 nav ul {
     width: 100%;
-    height: 40px;
-    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
     text-align: center;
-   
+    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
+    
 
 }
 
@@ -51,8 +51,10 @@ li {
     cursor: pointer;
     font-size: 25px;
     display: inline;
+    justify-content: baseline;
     margin: 20px;
-   
+    color: rgb(45, 45, 170);
+
 }
 
 li a {
@@ -61,29 +63,17 @@ li a {
     font-family: 'Boogaloo', cursive;
     font-family: 'Bungee Spice', cursive;
     font-family: 'Montserrat', sans-serif;
-    
 
 }
 
 
-/* @media  (max-width: 320px) {
-
-  
-   
-} */
-
-
-
 .container {
-    width: 100%;
-    height: 1000px;
+    height: 800px;
     display: flex;
     justify-content: center;
-    align-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     text-align: center;
-   
-
 
 
 }
@@ -94,12 +84,10 @@ li a {
     border-radius: 1vh;
     border: 2px solid black;
     display: flex;
-    
+   
+
 
 }
-
-
-
 
 .textoitem {
     cursor: pointer;
@@ -123,20 +111,41 @@ li a {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    background-color: #1e3c72;
+    background-color: #1d4a9d;
     color: #fff;
 
 
 
+
 }
 
-.imglab {
+h3 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 60px;
+    font-family: 'Bungee', cursive;
+    color: #fff
+   
+}
+
+.imgelec {
     width: 100%;
-    height: 1050px;
-    opacity: 0.5;
+    height: 100vh;
+    opacity: 0.6;
+    border-radius: 2vh;
+    background-attachment: fixed;
+
+
 
 
 }
+
+.sectxt {
+    position: relative;
+}
+
+
 
 
 footer {
@@ -157,6 +166,7 @@ footer {
 
 
 
+
 }
 
 .fa-brands {
@@ -164,5 +174,24 @@ footer {
     color: white;
     margin: 10px;
 
+}
+
+
+@media screen and (max-width: 1002px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        display: flex;
+        flex-direction: column;
+    }
+
 
 }
+
+
+
+
