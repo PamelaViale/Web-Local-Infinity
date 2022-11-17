@@ -21,40 +21,33 @@
     display: block;
     position: absolute;
     top: 25%;
-    left: 7%;
+    left: 8%;
 
 
 }
 
-.videoinicio {
+.imginicio {
+    width: 100%;
+    
+       
+
+}
+
+header {
     width: 100%;
     position: relative;
-    display: inline-block;
-    text-align: center;
-    
-}
+    display: block;
 
-header{
-        width: 100%;
-        display: flex;
-        position: fixed;
-        top: 0;
-        display: block;
-        cursor: pointer;
 
 }
 
-body{
 
-    padding-top: 30px;
-}
 
 /* Menú */
 nav ul {
-    width: 100%;
     text-align: center;
-    background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
-    
+    background-color: blue;
+    cursor: pointer;
 
 }
 
@@ -75,60 +68,74 @@ li a {
     font-family: 'Montserrat', sans-serif;
 
 }
-  /* cards */
 
-  .contenido2{
+/* cards */
+
+.contenido2 {
     width: 100%;
-    min-height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    
-  }
+    margin: 30px 70px 60px;
 
 
-.imgcard{
+
+
+}
+
+
+.imgcard {
     height: 150px;
-    max-width: 250px;
-    width: 90%;
     box-shadow: 0 0 10px grey;
     border-radius: 20px;
     padding: 10px 40px;
+    margin: 75px;
+
 }
 
-.btncard{
+
+
+.btncard {
     cursor: pointer;
-    display: block;
+    display: inline-block;
     text-align: center;
+    justify-content: space-around;
+    background-color: #808080;
+    font-family: 'Boogaloo', cursive;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    width: 150px;
     text-decoration: none;
-    color: blue;
-    
+    padding: 20px 0;
+    border-radius: 25px;
+    box-shadow: 0 0 10px grey;
+    position: relative;
+    right: 275px;
+
+
+
 }
-
-
-
 
 /* video de laboratorio y txt */
 
 .contenido3 {
     position: relative;
-    
+
 }
 
-.videozhumao{
-    width: 100%;
+.videozhumao {
+    width: 1350px;
 }
 
-   h3 {
+h3 {
     position: absolute;
-    top: 20%;
-    left: 15%;
+    top: 55px;
+    left: 45px;
     font-size: 50px;
-    display: flex;
     font-family: 'Bungee', cursive;
     color: #fff
-   
 }
 
 /* texto antes del footer */
@@ -136,14 +143,10 @@ li a {
 .txtlab {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Yusei Magic', sans-serif;
-    display: flex;
     justify-content: center;
     font-size: 35px;
     background-color: #808080;
     color: #fff;
-
-
-
 
 }
 
@@ -153,29 +156,19 @@ footer {
     height: 150px;
     background-image: radial-gradient(circle at 20% 14%, rgba(27, 27, 27, 0.05) 0%, rgba(27, 27, 27, 0.05) 50%, rgba(126, 126, 126, 0.05) 50%, rgba(126, 126, 126, 0.05) 100%), radial-gradient(circle at 18% 51%, rgba(248, 248, 248, 0.05) 0%, rgba(248, 248, 248, 0.05) 50%, rgba(26, 26, 26, 0.05) 50%, rgba(26, 26, 26, 0.05) 100%), radial-gradient(circle at 29% 38%, rgba(160, 160, 160, 0.05) 0%, rgba(160, 160, 160, 0.05) 50%, rgba(212, 212, 212, 0.05) 50%, rgba(212, 212, 212, 0.05) 100%), linear-gradient(90deg, rgb(35, 74, 255), rgb(6, 3, 30));
     display: flex;
-    justify-content: space-around;
-
-
-}
-
-
-.columnaredes {
-    width: 5%;
-    height: 5vh;
-    display: flex;
-    justify-content: space-around;
-
-
-
-
+    justify-content: center;
+    align-items: center;
+   
 }
 
 .fa-brands {
     font-size: 90px;
     color: white;
     margin: 10px;
+ 
 
 }
+
 
 
 @media screen and (max-width: 1002px) {
@@ -191,16 +184,12 @@ footer {
     }
 
 
-body{
+    body {
 
-    display: flex;
-    flex-direction: column;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
 }
-
-
-
-}
-
-
-
-
